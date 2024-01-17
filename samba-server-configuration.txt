@@ -16,7 +16,6 @@ sudo apt update
 sudo apt install samba
 
 2. Share Configuration
-
 Create a the directory to share in the home directory
 sudo mkdir -p /sharedDir/
 change permissions to rwx by all
@@ -48,7 +47,6 @@ Append following the syntax below:
  C. User Authentication
 
 1. User Accounts
-
 Create user samba users
 sudo useradd -s sbin/nologin tech
 sudo useradd -s sbin/nologin finance
@@ -95,10 +93,12 @@ $ testparm
 		$ systemctl start nmdb / $ systemctl enable nmdb
 
 Verify on windows by typing the following in the command line:
-\\:hostipadress
+\\hostipadressserverip
+e.g: \\192.168.8.10
 
 verify on linux by typing the following in the text corner of the files:
-smb//:192.168.10.10
+smb://serverip
+e.g: smb//:192.168.8.10
 
  2. Error Handling
 Guidance on common errors and their resolutions is provided to facilitate a smooth troubleshooting process.
