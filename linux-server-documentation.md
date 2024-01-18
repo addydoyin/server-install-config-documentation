@@ -1,4 +1,4 @@
-﻿ Linux Server Installation and Configuration Documentation
+Linux Server Installation and Configuration Documentation
   ===
 
  A. Introduction
